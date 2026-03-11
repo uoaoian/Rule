@@ -96,13 +96,13 @@ NodeParam: &NodeParam {type: http, interval: 3600, health-check: {enable: true, 
 # 锚点 - 节点订阅
 proxy-providers: 
   Enet:
-    url: 'https://www.5bx6h.net/s/28ps6azi8zig'
+    url: '链接'
     <<: *NodeParam
     path: './proxy_providers/Enet.yaml'
     override:
       additional-prefix: "[Enet] " # 为订阅节点添加机场名称前缀
   机场名称2:
-    url: 'https://skysub1.fawnnode.xyz/link/bfB0FaimUc4rQq6r?clash=1'
+    url: '链接'
     <<: *NodeParam
     path: './proxy_providers/机场名称2.yaml'
     override:
